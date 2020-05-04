@@ -1,0 +1,248 @@
+/*======================================= News ====================================*/
+.new > h2 {
+    font-weight: bold;
+    color: #111;
+    font-size: 25px;
+}
+.new .row h2.active {
+    color: rgb(0, 88, 163);
+    font-weight: bold;
+    font-size: 19px;
+    border-bottom: 2px solid rgb(0, 88, 163);
+    padding-bottom: 17px;
+    cursor: pointer;
+}
+.new .row h2.passive{
+	    font-weight: 600;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+ul.list-unstyled {
+    padding-top: 32px;
+}
+.new .list-unstyled li {
+    display: inline-block;
+    padding: 0 43px 0 0;
+    color: #111;
+    font-weight: 600;
+    cursor: pointer;
+}
+.new .list-unstyled li:visited{
+	color: rgb(0, 88, 163)
+}
+.new ul li:nth-of-type(4){
+    cursor: default;
+    color: #666;
+}
+.new div.dropdown-menu{
+	    top: 457px;
+    	position: absolute;
+    	left: 470px;
+        padding: 35px;
+        padding-top: 55px;
+        box-shadow: inset 1px 1px 0 rgb(0, 88, 163), 1px 1px 0 rgb(0, 88, 163);
+}
+.new .dropdown-menu li{
+	display: block;
+}
+.new a,.new a:hover{
+	text-decoration: none;
+}
+/*<!---------------------- drop Down For Color ---------------------->*/
+.drop,.Shap {
+    background: #fff;
+    width: fit-content;
+    padding: 0 55px 0 50px;
+    position: relative;
+    margin:auto;
+    box-shadow: 2px 2px 0.3125rem rgba(0,0,0,.1);
+    border: 1px solid rgb(0, 88, 163);
+    
+    display: none;
+
+}
+.Shap{
+	left: 54px
+}
+.dro,.sh {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+.drop ul.list-unstyled li:hover{
+	background-color: #ddd;
+	width: 100%
+}
+.drop ul.list-unstyled li,.Shap ul.list-unstyled li{
+    line-height: 2.2;
+    margin-left: 22px;
+    font-size: 16px;
+}
+.drop ul.list-unstyled li{color: #111; cursor: pointer;}
+.Shap ul.list-unstyled li{color: #ccc; cursor: default;}
+.drop ul.list-unstyled li div.div_1,.drop ul.list-unstyled li div.div_2,.drop ul.list-unstyled li div.div_3,
+.drop ul.list-unstyled li div.div_4,
+.drop ul.list-unstyled li div.div_5,
+.drop ul.list-unstyled li div.div_6,
+.drop ul.list-unstyled li div.div_7,
+.drop ul.list-unstyled li div.div_8,.drop ul.list-unstyled li div.div_9,.drop ul.list-unstyled li div.div_10,
+.drop ul.list-unstyled li div.div_11,
+.drop ul.list-unstyled li div.div_12,.drop ul.list-unstyled li div.div_13,.drop ul.list-unstyled li div.div_14,.drop ul.list-unstyled li div.div_15{
+	width: 27px;
+    height: 27px;
+    border-radius: 50%;
+   
+    position: absolute;
+    left: 4px;
+}
+.drop ul.list-unstyled li div.div_1{
+background: #fff;
+ border: 1px solid #000;
+}
+.drop ul.list-unstyled li div.div_2{
+	background-color: #000
+}
+.drop ul.list-unstyled li div.div_3{
+	background-color: #959595;
+	
+}
+.drop ul.list-unstyled li div.div_4{
+	background-color: #814820
+}
+.drop ul.list-unstyled li div.div_5{
+	background-color: #f4f3d7
+}
+.drop ul.list-unstyled li div.div_6{
+	background-color: #3b7d22
+}
+.drop ul.list-unstyled li div.div_7{
+	background-color:#0058a3
+}
+.drop ul.list-unstyled li div.div_8{
+	background-color: #77ddd0
+}
+.drop ul.list-unstyled li div.div_9{
+	background-color: red
+}
+.drop ul.list-unstyled li div.div_10{
+	background-color: #ffb8c3
+}
+.drop ul.list-unstyled li div.div_11{
+	background-color: #e1b12c
+}
+.drop ul.list-unstyled li div.div_12{
+	background:linear-gradient(#f8a5c2,#cf6a87,#f7d794);
+}
+.drop ul.list-unstyled li div.div_13{
+	background-color: #ff9a02
+}
+.drop ul.list-unstyled li div.div_14{
+	background-color: #a96ecc
+}
+.drop ul.list-unstyled li div.div_15{
+	background: linear-gradient(#778beb,#574b90,#303952,#546de5)
+}
+.drop ul.list-unstyled li span,.Shap ul.list-unstyled li span{
+	    position: absolute;
+    right: 12px;
+    color: #777;
+}
+.Shap ul.list-unstyled li:before{
+	font-family: 'Font Awesome 5 free';
+    content: "\f0c8";
+    position: absolute;
+    left: 19px;
+    font-size: 20px;
+    color: #ccc;
+}
+.drop .tringle,.Shap .tringle{
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    position: absolute;
+    top: -1px;
+}
+.drop .tringle_top,.Shap .tringle_top{
+width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(0, 88, 163);
+    position: absolute;
+    top: -10px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: rgb(0, 88, 163);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: relative;
+    bottom: 19px;
+    border-radius: 13px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: rgb(0, 88, 163);
+  cursor: pointer;
+  border-radius: 50%
+}
+button.btn {
+    padding-right: 31px;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding-left: 25px;
+    color: #111
+}
+svg.range-svg-icon.range-price-range__indicator-separator.range-svg-icon--150 {
+    width: 24px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+span.egp {
+    position: relative;
+    right: -24px;
+    font-weight: bold;
+    color: #666;
+}
+.alaa{
+	color: rgb(0, 88, 163) !important;
+}
+.omran{
+	color: #111 !important;
+}
+/*------------------------ Sort -----------------------------*/
+.mood1{
+	    border-bottom: 1px solid transparent !important;
+}
+
+.mood1 .pargraph{
+	position: relative;
+    top: 61px;
+}
+.mood1 a {
+    position: relative;
+    top: 70px;
+    font-size: 17px;
+}

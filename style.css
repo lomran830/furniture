@@ -1,0 +1,897 @@
+body
+{
+	margin:0;
+	padding:0;
+
+}
+.nicescroll-cursors{
+    width: 26px !important;
+    height: 60px !important;
+/*    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(255, 255, 255);
+    background-clip: padding-box;*/
+    border-radius: 21px !important;
+}
+/*===================== Navbar =======================*/
+.navbar-fixed-top{
+	position: relative;
+}
+.container{
+	/*width: 1405px;*/
+}
+.container .navbar-default {
+    background-color: #fff !important;
+    border: none !important;
+}
+.container .navbar-default .navbar-nav>li>a{
+	color: #000 !important;
+	    font-weight: bold;
+}
+.container .navbar-default .navbar-nav>li>a:hover{
+	text-decoration: underline;
+}
+.container .navbar-default .navbar-nav>.active>a{
+	background-color: transparent !important;
+}
+.container .collapse ul.navbar-right span{
+	font-size: 19px;
+    
+    padding-top: 14px;
+    text-align: center;
+        width: 48px;
+    height: 48px;
+    transition: background-color .15s
+}
+.container .collapse ul.navbar-right span:hover{
+	background-color: rgba(204,204,204,0.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+ul.na{
+	padding-top: 15px
+}
+/*===========Notice_hide=========*/
+.inspiration{
+     background: #fff;
+    padding: 25px;
+    padding-left: 81px;
+    z-index: 2000;
+    position: absolute;
+    top: 55px;
+    left: 373px;
+    display: none;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)
+}
+.inspiration h2{
+	    font-weight: bold;
+    color: #111;
+}
+.inspiration li{
+    font-weight: bold;
+    line-height: 3;
+    font-size: 15px;
+}
+.products{
+	     background: #fff;
+    width: 65%;
+    padding: 25px;
+    padding-left: 81px;
+    z-index: 2000;
+    position: absolute;
+    top: 55px;
+    left: 373px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    display: none;
+}
+.products h2 {
+    font-weight: bold;
+}
+.products  ul li {
+    line-height: 3;
+    font-weight: 600;
+    cursor: pointer;
+}
+.products .products_left ul li {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M9.7 19.7l7.7-7.8-7.7-7.6-1.4 1.4 6.3 6.2-6.3 6.4z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: right;
+}
+
+.products  ul li:hover{
+	text-decoration: underline;
+}
+.products .products_right ul li {
+    color: rgba(0, 88, 163);
+}
+.products .right,.products .products_left {
+    border-right: 1px solid #ddd;
+}
+.products .products_right p {
+    font-size: 16px;
+    width: 73%;
+}
+.open>.hi {
+    display: block;
+    position: absolute;
+    left: 306px;
+    top: 62px;
+    border: none;
+        padding: 30px;
+}
+li.li_1 a {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: rgb(0, 88, 163) !important;
+}
+/*===================== Input Search =======================*/
+.container .search-field {
+    position: relative;
+    top: -116px;
+    width: auto;
+}
+.container input[type="search"]{
+	position: relative;
+    top: 82px;
+    background-color: #eee;
+    border-radius: 57px;
+    width: 100%;
+    border: 3px solid #eee;
+    padding-left: 42px;
+    outline: 0;
+    transition: box-shadow .15s,background-color .15s
+}
+.container input[type="search"]:focus{
+	box-shadow: inset 0 0 0 2px #00a8ff;
+	background-color: #fff;
+	border: none;
+}
+.container  i.fas.fa-search {
+    font-size: 22px;
+    position: relative;
+    top: 119px;
+    z-index: 9;
+    left: 13px;
+}
+.container .img {
+    position: relative;
+    top: -10px;
+    height: 100px;
+}
+.container .img img[alt="festivesale"]
+{
+	width: 100%;
+	height: 100%
+}
+/*================================= Carousel ===================================*/
+.carousel{
+	width: 100%;
+	height: 488px;
+	    position: relative;
+    top: 20px;
+}
+.carousel-inner{
+	width: 100%;
+	height: 100%;
+}
+.carousel .item{
+	width: 100%;
+	height: 100%
+}
+.carousel img{
+width: 100%;
+height: 100%;
+}
+.carousel .item div[alt="1"]{
+	background: url("https://www.ikea.com/images/1a/fc/1afc486f182e6f94ded6f1ff94e27f16.png?f=xxxl");
+	width: 100%;
+	height: 527px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat!important;
+}
+.carousel .item div[alt="4"]{
+	background: url("images/ab302d2adbfdff7b7b34e54ff894bf1d.jpg");
+	width: 100%;
+	height: 527px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat!important;
+}
+.carousel .item div[alt="2"]{
+    background: url(https://www.ikea.com/images/fe/59/fe59629e53011652adaacd59e39fd88f.png?f=m);
+    width: 1139px;
+    height: 100%;
+    /* background-size: contain!important; */
+    background-repeat: no-repeat!important;
+    background-size: 100% 100%;
+}
+.carousel .item div[alt="3"]{
+    background: url(https://www.ikea.com/images/10/d2/10d250e967091b4e616407a508d4a09e.png?f=xxxl);
+    width: 1139px;
+    height: 565px;
+        margin-top: -36px;
+    background-repeat: no-repeat!important;
+    background-size: 100% 100%;
+
+}
+#myCarousel a.left.carousel-control,a.right.carousel-control {
+    position: absolute;
+    color: #000;
+    background: none;
+}
+#myCarousel a.left.carousel-control{
+	/*left: -141px;*/
+}
+#myCarousel a.right.carousel-control {
+	/*right: -141px*/
+}
+#myCarousel .carousel-indicators li{
+	border: 1px solid #ddd !important;
+	background-color: #ddd !important
+}
+#myCarousel .carousel-indicators .active{
+	background-color: #ddd !important;
+	width: 34px
+}
+
+
+
+
+/*====================================== furniture =========================================*/
+div#myCarousel1 {
+    position: relative;
+    top: 175px;
+    margin-bottom: 216px;
+}
+.container .sale{
+    position: relative;
+    top: 73px;
+    color: rgb(0, 88, 163);
+    font-weight: bold;
+    font-size: 19px;
+}
+#myCarousel1 .carousel-indicators li{
+	border:1px solid #000;
+}
+#myCarousel1 .carousel-indicators .active{
+	width: 34px
+}
+#myCarousel1 .carousel-indicators .active{
+	background-color: #000
+}
+#myCarousel1 a.left.carousel-control,#myCarousel1 a.right.carousel-control {
+    color: #000;
+    background: none;
+}
+#myCarousel1 .carousel-inner .item .row img{
+	    width: 200px;
+    	height: 200px;
+}
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color:rgb(0, 88, 163);
+    width: 16%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 71px;
+}
+#myCarousel1 .carousel-indicators li{
+	border: 1px solid #ddd !important;
+	background-color: #ddd !important
+}
+#myCarousel1 .carousel-indicators .active{
+	background-color: #ddd !important
+}
+#myCarousel1 .carousel-inner .item .row h4{
+	color: #111;
+	font-weight: bold;
+	cursor: pointer;
+}
+#myCarousel1 .carousel-inner .item .row h4:hover{
+	text-decoration: underline;
+}
+#myCarousel1 .carousel-inner .item .row .pargraph{
+	color: #111;
+	text-transform: capitalize;
+}
+#myCarousel1 .carousel-inner .item .row h2{
+	color: #cc0008;
+	font-weight: bold;
+}
+#myCarousel1 .carousel-inner .item .row .old_sale{
+	text-decoration: line-through;
+	color: #111;
+	font-weight: bold;
+}
+ img[alt="arrow_left"],img[alt="arrow_right"]{
+	width: 20px;
+	height: 40px;
+	position: absolute;
+    top: 174px;
+        background: #fff;
+}
+.group {
+    position: relative;
+    top: 23px;
+}
+#myCarousel1 button{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid rgb(0, 88, 163);
+	color:rgb(0, 88, 163);
+	/*text-transform: capitalize;*/
+	padding: 8px 40px 8px 40px;
+border-radius: 2px;
+transition: background-color .9s;
+top: 30px
+}
+#myCarousel1 button:hover{
+	background-color: rgb(0, 88, 163);
+	color: #fff;
+}
+#myCarousel1 button img[alt="arrow_right1"]{
+	width: 20px;
+	height: 40px;
+	position: absolute;
+    top: 174px;
+}
+
+#myCarousel1 .container{
+    border-bottom: 1.1px solid #ddd;
+    padding-bottom: 130px;	
+}
+/*============================== Shop by categories ===================================*/
+.container .categories img{
+	width: 82px;
+	height: 82px;
+}
+.container .categories h2{
+	    color: #111;
+    	font-weight: bold;
+    	margin-bottom: 77px;
+}
+.container .categories {
+    width: 100%;
+    position: relative;
+    padding-top: 47px;
+    padding-bottom: 68px;
+    border-bottom: 1px solid #ddd;
+}
+
+.container .categories p.lead {
+    font-size: 16px;
+    margin-top: 29px;
+}
+
+/*============================== Shop by categories ===================================*/
+.gift{
+	    padding-top: 47px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #ddd;
+}
+.container .gift .img-responsive{
+	width: 768px;
+	height: 501.39px;
+	margin:auto;
+	padding-bottom: 99px;
+}
+.gift h2 {
+    margin-bottom: 27px;
+}
+img[alt="chair"]{
+	width: 210px;
+	height: 210px
+}
+.gift .row h3{
+	color: #111;
+	font-weight: bold;
+	font-size: 18px; 
+}
+.gift .row p{
+	color: #111
+}
+.gift .row h1{
+	color: #cc0008;
+	font-weight: bold;
+}
+.gift .row .old_sale{
+	font-weight: bold;
+	text-decoration: line-through;
+}
+.gift .row .pargraph{
+	color: #777
+}
+.gift button{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid rgb(0, 88, 163);
+	color:rgb(0, 88, 163);
+	padding: 8px 40px 8px 40px;
+	border-radius: 2px;
+	transition: background-color .9s;
+    margin-top: 46px;
+    margin-bottom: 43px;
+	top: 30px
+}
+.gift button:hover{
+	background-color: rgb(0, 88, 163);
+	color: #fff;
+}
+/*=========================== Set the right mood with LED lights =======================*/
+.container .mood.text-center {
+    padding: 56px 0 81px 0;
+    border-bottom: 1px solid #ddd;
+}
+.container .mood h2{
+	    font-weight: bold;
+	    color: #111;
+	    margin-bottom: 33px;
+}
+.container .mood img[alt="light"], .container .mood img[alt="light_1"]{
+	width: 568px;
+	height: 358.79px;
+	margin:auto;
+	padding:2px
+}
+.container .mood img[alt="fan"]{
+	width:210px ;
+	height: 210px;
+}
+.container .mood .badge{
+	background-color: #ca5007;
+}
+.container .mood  .group_1{
+	    padding-top: 74px;
+}
+.container .mood  .group_1 h3{
+	color: #111;
+	font-weight: bold;
+	font-size: 20px;
+}
+.container .mood  .group_1 h3:hover{
+	text-decoration: underline;
+}
+.container .mood  .group_1 h1{
+	color: #cc0008;
+	font-weight: bold;
+}
+.container .mood  .group_1 .old_sale{
+	font-weight: bold;
+	text-decoration: line-through;
+}
+/*======================================= What's on IKEA ===================================*/
+.container .ikea .row .col-md-4{
+	margin-bottom: 50px;
+}
+.ikea.text-center {
+    padding-top: 46px;
+    padding-bottom: 76px;
+    border-bottom: 1px solid #ddd;
+}
+.container .ikea h2{
+padding-bottom: 28px;
+font-weight: bold;
+}
+.container .ikea .row img{
+	width: 368px;
+	height: 207.3px;
+}
+.container .ikea .row h3{
+	color: #111;
+	font-weight: bold
+}
+.container .ikea .row p{
+	margin: auto;
+    color: #111;
+    line-height: 1.6;
+    width: 78%;
+    padding-top: 14px;
+    padding-bottom: 25px;
+}
+.container .ikea .row button{
+	    padding: 5px 39px 5px 38px;
+	    background-color: transparent;
+	    border: 1px solid rgb(0, 88, 163);
+	    color: rgb(0, 88, 163);
+	    position: background-color 1s,color 1s;
+	    border-radius: 2px 
+}
+.container .ikea .row button:hover{
+	background-color: rgb(0, 88, 163);
+	color: #fff;
+}
+/*=================================== Note ===============================*/
+.container .note {
+    margin: auto;
+    position: relative;
+    padding-top: 37px;
+    padding-bottom: 39px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 59%;
+    top: 23px;
+}
+.container .note img{
+	width: 168px;
+	height: 94.48px;
+}
+.container .note span {
+    display: inline-block;
+    width: 65%;
+    font-size: 16px;
+    padding-left: 54px;
+    line-height: 1.6;
+    position: relative;
+    top: 17px;
+    color: #111;
+}
+/*============================= IKEA home design ideas ============================*/
+ .design{
+padding-bottom: 76px;
+    background: #f2f2f2;
+    padding-top: 47px;
+    position: relative;
+    top: 65px;
+}
+.home .img{
+    position: relative;
+    width: 368.48px;
+    height: 278.8px;
+    margin:auto;
+    margin-bottom: 16px;
+
+}
+ .design img{
+	width: 100%;
+	height: 232.8px;
+	position: relative;
+}
+ .ideas{
+    padding-bottom: 69px;
+    padding-top: 57px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    border-bottom-left-radius: 100%;
+    position: relative;
+    top: -47px;
+    border-bottom-right-radius: 100%;
+}
+.ideas h2{
+color: #111;
+    font-weight: bold;
+    margin-bottom: 44px;
+}
+ .design  p{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    padding: 13px 0 13px 0;
+    font-weight: bold;
+    color: #111;
+}
+.home button{
+	    padding: 5px 39px 5px 38px;
+	    background-color: transparent;
+	    border: 1px solid rgb(0, 88, 163);
+	    color: rgb(0, 88, 163);
+	    transition: : background-color 1s,color 1s;
+	    border-radius: 2px ;
+	        position: relative;
+    top: 107px;
+}
+.home button:hover{
+	background-color: rgb(0, 88, 163);
+	color: #fff;
+}
+.home.text-center {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 169px;
+}
+
+/*========================================== footer =======================================*/
+.footer{
+	    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 54px;
+    padding-bottom: 57px;
+    background-color: rgb(0, 88, 163)
+}
+.footer h2 {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff
+}
+.footer li{
+	    line-height: 1.8;
+    text-align: left;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+}
+.footer li:hover{
+	text-decoration: underline;
+}
+.footer.text-center {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer .media li{
+	display: inline-block;
+	    padding: 12px;
+	    color: #fff;
+	    cursor: pointer;
+}
+.footer .media li:hover{
+	text-decoration: underline;
+}
+i.fab.fa-instagram, i.fab.fa-facebook, i.fab.fa-linkedin, i.fab.fa-youtube-square {
+    font-size: 21px;
+    position: relative;
+    right: 5px;
+}
+i.fas.fa-book-open,i.far.fa-comment-alt{
+	    position: relative;
+    right: 5px;
+}
+.footer p{
+	color: #fff
+}
+/*@media(min-width: 992px){
+	.container{
+		width: 750px
+	}
+}*/
+/*--------------------------------------LogIN Screen----------------------------*/
+.login{
+	background: #4d5d7a url("images/checkout_background.3d910f0f.png") 50%/cover no-repeat fixed;
+	min-height: 100vh;
+	margin:auto;
+	padding-top: 79px;
+	margin-bottom: 30px;
+}
+.inp{
+	    background-color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+        padding: 25px 29px 73px 29px;
+        top: -33px;
+        position: relative;
+}
+.inp >h3{
+	    font-weight: bold;
+	    margin-bottom: 41px;
+}
+label{
+	   display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    left: -103px;
+    font-weight: 100;
+    color: #333
+}
+.inp span{
+position: relative;
+    font-size: 12px;
+}
+input[type="email"],input[type="password"]{
+	    padding-right: 116px;
+    position: relative;
+        padding-top: 17px;
+}
+.pass{
+	    position: relative;
+    top: 31px;
+}
+.inp  button,.inp  button.cret{
+	    position: relative;
+    top: 42px;
+    
+    padding: 10px 120px 10px 135px;
+    color: #fff;
+    border: 1px solid #437baf;
+    border-radius: 3px;
+}
+.inp  button{
+	background-color: #437baf;
+}
+.inp  button.cret,.inp  button.cret:hover{
+	background-color: transparent;
+	margin-top: 33px;
+	color: #437baf
+}
+.inp  button:hover{
+	color: #fff
+}
+
+.inp h3.head{
+	
+	    position: relative;
+    top: 80px;
+    font-size: 17px;
+}
+
+.inp .sav{
+    position: relative;
+    top: 49px;
+    width: 60%;
+        text-align: center;
+    margin: auto;
+}
+.inp p.pargraph{
+	position: relative;
+    top: 49px;
+    width: 53%;
+        text-align: center;
+    margin: auto;
+}
+
+
+/*<!--------------secure screen---------------*/
+.shopping_cart{
+	    border-bottom: 1px solid #ccc;
+	    padding-bottom: 50px
+}
+.shopping_cart h2{
+	font-weight: bold;
+}
+.shopping_cart h4{
+	    font-weight: 600;
+    position: relative;
+    top: 31px;
+}
+.shopping_cart p.pargraph,.shopping_cart p.pargraph1{
+    position: relative;
+    top: 28px;
+}
+.visa{
+	padding-top: 26px;
+}
+img[alt="visa"]{
+	margin:5px;
+}
+p.lock{
+	    position: relative;
+    top: 60px;
+}
+p.lock i{
+	    margin-right: 10px;
+}
+
+
+
+/*---------------order list---------------------*/
+
+.list{
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.list h2{
+    margin-bottom: 27px;
+    font-weight: bold;
+}
+.list img{
+    margin-bottom: 20px;
+}
+.list p{
+color: #777
+}
+.list a{
+text-decoration: underline;
+}
+.list button{
+    margin-top: 49px;
+    padding-left: 60px;
+    padding-right: 105px;
+    margin: 9px;
+    background: #437baf;
+    outline: 0
+    
+}
+.list a button,.list a:hover button{
+	color: #fff;
+	text-decoration: none;
+}
+.list button:hover{
+	color: #fff
+}
+
+/*<!--------------Create screen----------------*/
+.creat{
+	    width: 100%;
+    height: 300px;
+    border-top: 1px solid #ddd;
+}
+.log_out{
+	    background: #f5f6f7;
+    border: 1px solid #ddd;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 88px 50px 58px;
+}
+.word{
+border-bottom: 1px solid #ddd;
+}
+.word h3{
+    text-align: left;
+    font-weight: bold;
+}
+.group{
+	    margin: 22px;
+}
+.group input{
+	padding-right: 137px;
+}
+.group input[type="phone"]{
+	margin-left: -52px
+}
+.group input[type="email"]
+{
+	    padding: 0 138px 0 0;
+    margin-left: 42px;
+}
+.group input[type="password"]{
+	        padding: 0 138px 0 0;
+    position: relative;
+    left: 7px;
+}
+.group .re-pass{
+	    margin-left: -62px;
+}
+.group .pass1{
+	position: relative;
+    left: -60px;
+}
+.group .re-email{
+	    position: relative;
+    left: -56px;
+}
+.group .phone{
+	    position: relative;
+    left: -46px;
+}
+.group span{
+	margin-right: 17px;
+}
+.log_out .pargraph{
+	    width: 35%;
+    margin: auto;
+    margin-top: 59px;
+}
+.log_out .pargraph:before{
+	font-family: 'Font Awesome 5 free';
+    content: "\f0c8";
+    color: #555;
+    font-size: 26px;
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+}
+.log_out input[type="checkbox"]:checked + label:before{
+	font-family: 'Font Awesome 5 free';
+		content: "\f14a";
+		color: #4d5d7a;
+	    font-size: 26px;
+	    margin-right: 15px;
+    	position: relative;
+    	top: 4px;
+}
+.log_out .parg{
+	    margin-top: -43px;
+    margin-left: -53px;
+}
+.log_out  button{
+	    float: right;
+    background: #4d5d7a;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 34px
+}
+.log_out  button:hover{
+	color: #fff
+}

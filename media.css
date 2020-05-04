@@ -1,0 +1,173 @@
+@media(max-width: 990px){
+	div#myCarousel1{
+		    margin-bottom: 554px;
+	}
+}
+@media(max-width: 767px){
+	div#myCarousel1{
+		    margin-bottom: 1235px;
+	}
+}
+@media(min-width: 900px){
+	@media(max-width: 1060px){
+		.products{
+			width: 72%;
+			left: 69px
+		}
+	}
+}
+@media(min-width: 1060px){
+@media(max-width: 1076px){
+	.products{
+		left: 184px;
+	}
+}
+}
+@media(min-width: 1076px){
+	.products{
+		/*width: 127px*/
+	}
+}
+@media(min-width: 1076px){
+@media(max-width: 1087px){
+	.products{
+		width: 76%;
+		left: 109px
+	}
+}
+}
+@media(min-width: 1087px){
+@media(max-width: 1120px){
+	.products{
+		left: 195px;
+	}
+}
+}
+@media(max-width: 900px){
+	.products{
+		left: 97px;
+	}
+	.container .categories {
+    top: -16px;
+}
+}
+@media(max-width:992px){
+	.nav>li>a{
+		    padding: 10px 10px;
+	}
+	.container .navbar-default .navbar-nav>li>a{
+		font-size: 12px;
+	}
+	.container .collapse ul.navbar-right span{
+		font-size: 17px
+	}
+}
+
+
+@media(min-width: 1199px){
+	@media(max-width: 1302px){
+		#myCarousel a.right.carousel-control{
+	right: 0;
+}
+	}
+}
+@media(max-width: 1200px){
+
+			.shop #myCarousel1 .carousel-indicators {
+		    bottom: -281px;
+		}
+		#myCarousel1 button{
+			    top: 85px;
+		}
+
+
+}
+@media(min-width: 900px){
+	@media(max-width: 1200){
+				.container .categories{
+			     top: 321px; 
+		}
+	}
+}
+@media(min-width: 990px){
+	@media(max-width: 1200px){
+.container .categories{
+	top: 321px
+	}
+}
+}
+@media(max-width: 989px){
+	.gift{
+		position: relative;
+		top:-17px;
+	}
+}
+@media(min-width: 989px){
+@media(max-width: 1201px){
+	.gift{
+		    position: relative;
+    		top: 305px;
+	}
+}
+}
+@media(min-width: 988px){
+	@media(max-width: 1200px){
+		.container .mood.text-center{
+			    position: relative;
+    			top: 251px;
+		}
+	}
+}
+@media(max-width: 1200px){
+	.container .ikea .row img{
+		    width: 301px;
+	}
+	.home .img{
+		width: 300.48px;
+	}
+}
+
+@media(min-width: 988px){
+	@media(max-width: 1200px){
+			.ikea.text-center{
+		    position: relative;
+    top: 221px;
+	}
+	.container .note{
+		    top: 241px;
+	}
+}
+	}
+	@media(min-width: 500px){
+@media(max-width: 850px){
+	.new div.dropdown-menu{
+		left: 113px
+	}
+}
+}
+@media(max-width: 500px){
+		.new div.dropdown-menu{
+		left: 6px
+	}
+}
+@media(min-width: 850px){
+	@media(max-width: 1140px){
+	.new div.dropdown-menu{
+	left:124px;
+}
+}
+}
+@media(min-width: 987px){	
+@media(max-width: 1200px){
+.container .mood1{
+position: relative !important;
+    top: -9px !important;
+}
+}
+}
+@media(max-width: 582px){
+	.log_out{
+		padding-right: 0;
+		/*45px*/
+	}
+}

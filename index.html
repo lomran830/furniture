@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Shop</title>
+		<link rel="stylesheet" type="text/css" href="Libraryies/Bootstrab 3/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="media.css">
+		<script type="text/javascript" src="Libraryies/js/jquery-3.4.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="Libraryies/fonts/fontawesome-free-5.12.0-web/css/all.css">
+		<script type="text/javascript" src="Libraryies/fonts/fontawesome-free-5.12.0-web/css/all.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<script type="text/javascript" src="jquery.nicescroll-master/jquery.nicescroll.js"></script>
+	</head>
+	<body>
+		<!--===================== Navbar =======================-->
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="">
+
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html">
+			      	<img src="https://www.ikea.com/eg/en/static/ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.svg" alt="Ikea" title="Ikea">
+			      </a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="myNavbar">
+			      <ul class="nav navbar-nav na">
+			        <li class="pro"><a href="#">Products<span class="glyphicon glyphicon-menu-down"></span></a></li>
+			        <li class="rooms_drop"><a href="#">Rooms<span class="glyphicon glyphicon-menu-down"></span></a></li>
+			        <li class="dropdown-toggle" data-toggle="dropdown" id="menu1"><a href="#">Inspiration<span class="glyphicon glyphicon-menu-down"></span></a></li>
+							        <ul class="dropdown-menu hidden-xs hi" role="menu" aria-labelledby="menu1">
+							        	<li class="li_1"><a href="#">Inspiration</a></li>
+									    <li><a href="#">Ideas</a></li>
+									    <li><a href="#">Rooms Inspiration</a></li>
+				  					</ul>
+			        <li><a href="news.html">What's New</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="login.html"><span class="glyphicon glyphicon-user" title="My Profile"></span></a></li>
+			        <li><a href="order.html"><span class="glyphicon glyphicon-list-alt" title="Shopping list"></span></a></li>
+			        <li><a href="secure.html"><span class="glyphicon glyphicon-shopping-cart" title="Shopping bag"></span></a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+		<!--=======Notice_hide=====-->
+		<div class="inspiration text-left hidden-xs">
+			<h2>Rooms</h2>
+			<ul class="list-unstyled">
+										<li><a href="#">Bathroom</a></li>
+									    <li><a href="#">Bedroom</a></li>
+									    <li><a href="#">Children's room</a></li>
+									    <li><a href="#">Dining</a></li>
+									    <li><a href="#">Hallway</a></li>
+									    <li><a href="#">Home office</a></li>
+									    <li><a href="#">Kitchen</a></li>
+									    <li><a href="#">Living room</a></li>
+									    <li><a href="#">Garden & Balcony</a></li>
+			</ul>
+		</div>
+		<div class="">
+		<div class="products hidden-xs">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="products_left">
+						<h2>Products</h2>
+						<ul class="list-unstyled">
+							<li>Furniture</li>
+							<li>Storage & organisation</li>
+							<li>Beds & mattresses</li>
+							<li>Bathroom products</li>
+							<li>Baby & children</li>
+							<li>Textiles</li>
+							<li>Kitchen & appliances</li>
+							<li>Kitchenware & tableware</li>
+							<li>Lighting</li>
+							<li>Decoration</li>
+							<li>Outdoor products</li>
+							<li>Pots & plants</li>
+						</ul>
+					</div>
+
+				</div>
+			<div class="col-md-4">
+					<div class="products_right right">
+						<h2>Good to know</h2>
+						<ul class="list-unstyled">
+							<li>Guarantees and warranties</li>
+							<li>0% interest</li>
+							<li>90 Days return policy</li>
+							<li>How to shop at IKEA</li>
+							<li>IKEA Business</li>
+							<li>Planning tools</li>
+							<li>Catalogue and brochures</li>
+							<li>IKEA Food</li>
+						</ul>
+					</div>
+				</div>
+			<div class="col-md-4">
+					<div class="products_right">
+						<h2>News & Trends</h2>
+						<ul class="list-unstyled">
+							<li>What's new</li>
+							<li>Current offers</li>
+							<li>Smart storage solutions</li>
+							<p>Get great ideas for smart storage solutions.</p>
+							<li>IKEA Family</li>
+							<p>IKEA Family is a loyalty program designed for people who love their homes, and love to shop at IKEA.</p>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--===================== Input Search =======================-->
+		<div class="container">
+			<div class="search-field">
+				<i class="fas fa-search"></i>
+				<input type="Search" name="search" class=" input-lg" placeholder="Search for content,products,categories">
+			</div>
+			<div class="img">
+				<img src="images/festivesale-egypt-desktop.png" alt="festivesale">
+			</div>
+		</div>
+		<!--================================= Carousel ===================================-->
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				     <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+     <div alt="3"></div>
+     
+    </div>
+
+    <div class="item">
+      <div alt="1"></div>
+     
+    </div>
+
+    <div class="item">
+      <div alt="2"></div>
+      
+    </div>
+    <div class="item">
+      <div alt="4"></div>
+      
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control hidden-md hidden-sm hidden-xs" href="#myCarousel" data-slide="prev">
+  	<div class="mg">
+    <img src="https://secure.ikea.com/ms/img/mShoppingcart/ikea_MW_cash_candy_arrow_left_retina.png" alt="arrow_left">
+</div>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control hidden-md hidden-sm hidden-xs" href="#myCarousel" data-slide="next">
+    <img src="https://secure.ikea.com/ms/img/mShoppingcart/ikea_MW_cash_candy_arrow_right_retina.png" alt="arrow_right">
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		</div>
+		<!--====================================== furniture =========================================-->
+		<div class="shop">
+		<div class="container">
+			<div class="group">
+			<p class="sale text-center">Sale products</p>
+			<div class="divider"></div>
+		</div>
+		</div>
+		
+			<div id="myCarousel1" class="carousel slide text-center" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators hidden-xs">
+				    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel1" data-slide-to="1"></li>
+				    <li data-target="#myCarousel1" data-slide-to="2"></li>
+				     <li data-target="#myCarousel1" data-slide-to="3"></li>
+				  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="container">
+  <div class="carousel-inner">
+    <div class="item active">
+     <div class="row">
+     	<div class="col-lg-3 col-sm-6">
+     		<img src="https://www.ikea.com/eg/en/images/products/malm-bed-frame-high-w-2-storage-boxes-brown-stained-ash-veneer-loenset__0638609_PE699031_S5.JPG?f=xs?f=xxs" alt="bad">
+     		<h4>MALM</h4>
+     		<p class="pargraph">Bed frame,high</p>
+     		<h2>EGP 6,495</h2>
+     		<p class="old_sale">EGP 6,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/jaettelilja-quilt-cover-and-2-pillowcases__0720537_PE732623_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>JÄTTELILJA</h4>
+     		<p class="pargraph"> Quilt cover and 2 pillowcases</p>
+     		<h2>EGP 1,299</h2>
+     		<p class="old_sale">EGP 6,799</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/godmorgon-mirror-cabinet-with-2-doors-kasjoen-light-grey__0649002_PE705183_S5.JPG?f=xs?f=xxs" alt="bad">
+     		<h4>GODMORGON</h4>
+     		<p class="pargraph"> Mirror cabinet with 2 doors</p>
+     		<h2>EGP 5,995</h2>
+     		<p class="old_sale">EGP 6,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/knislinge-three-seat-sofa-samsta-dark-brown__0463031_PE609597_S5.JPG?f=xs?f=xxs" alt="bad">
+     		<h4>KNISLINGE</h4>
+     		<p class="pargraph"> Three-seat sofa</p>
+     		<h2>EGP 6,995</h2>
+     		<p class="old_sale">EGP 7,995</p>
+     	</div>
+     </div>
+     
+    </div>
+
+    <div class="item">
+<div class="row">
+     	<div class="col-lg-3 col-sm-6">
+     		<img src="https://www.ikea.com/eg/en/images/products/jaervsta-armchair-bed__0562584_PE663511_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>JÄRVSTA</h4>
+     		<p class="pargraph"> Armchair-bed</p>
+     		<h2>EGP 7,995</h2>
+     		<p class="old_sale">EGP 9,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		 <img src="https://www.ikea.com/eg/en/images/products/hemnes-glass-door-cabinet-with-3-drawers-black-brown__0644208_PE702489_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>HEMNES</h4>
+     		<p class="pargraph"> Glass-door cabinet with 3 drawers</p>
+     		<h2>EGP 7,995</h2>
+     		<p class="old_sale">EGP 9,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/stenstorp-kitchen-trolley-white-oak__0736873_PE740787_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>STENSTORP</h4>
+     		<p class="pargraph">STENSTORP</p>
+     		<h2>EGP 3,495</h2>
+     		<p class="old_sale">EGP 4,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/gonatt-cot-light-grey__0637926_PE698624_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>GONATT</h4>
+     		<p class="pargraph"> Cot</p>
+     		<h2>EGP 3,995</h2>
+     		<p class="old_sale">EGP 5,495</p>
+     	</div>
+     </div>
+     
+     
+    </div>
+
+    <div class="item">
+ <div class="row">
+     	<div class="col-lg-3 col-sm-6">
+     		<img src="https://www.ikea.com/eg/en/images/products/sundvik-changing-table-chest-of-drawers-grey-brown__0285187_PE422238_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>SUNDVIK</h4>
+     		<p class="pargraph"> Changing table</p>
+     		<h2>EGP 3,495</h2>
+     		<p class="old_sale">EGP 4,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/solgul-wardrobe-white__0551668_PE658717_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>SOLGUL</h4>
+     		<p class="pargraph"> Wardrobe</p>
+     		<h2>EGP 1,495</h2>
+     		<p class="old_sale">EGP 2,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/tuffing-loft-bed-frame__0638050_PE698663_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>TUFFING</h4>
+     		<p class="pargraph"> Loft bed frame</p>
+     		<h2>EGP 2,495</h2>
+     		<p class="old_sale">EGP 3,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/grusblad-quilt-warmer__0597850_PE677318_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>GRUSBLAD</h4>
+     		<p class="pargraph"> Quilt, warmer</p>
+     		<h2>EGP 595</h2>
+     		<p class="old_sale">EGP 795</p>
+     	</div>
+     </div>
+     </div>
+    <div class="item">
+<div class="row">
+     	<div class="col-lg-3 col-sm-6">
+     		<img src="https://www.ikea.com/eg/en/images/products/vedbo-armchair__0548736_PE657417_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>VEDBO</h4>
+     		<p class="pargraph"> Armchair</p>
+     		<h2>EGP 4,495</h2>
+     		<p class="old_sale">EGP 5,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/strandmon-wing-chair-nordvalla-red__0690287_PE723209_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>STRANDMON</h4>
+     		<p class="pargraph"> Wing chair</p>
+     		<h2>EGP 5,495</h2>
+     		<p class="old_sale">EGP 6,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/strandmon-footstool__0618881_PE688689_S5.JPG?f=s?f=xxs" alt="bad">
+     		<h4>STRANDMON</h4>
+     		<p class="pargraph">  Footstool</p>
+     		<h2>EGP 1,495</h2>
+     		<p class="old_sale">EGP 1,995</p>
+     	</div>
+     	<div class="col-lg-3 col-sm-6">
+     		     		<img src="https://www.ikea.com/eg/en/images/products/vonsbaek-rug-low-pile__0717879_PE731373_S5.JPG?f=xs?f=xxs" alt="bad">
+     		<h4>VONSBÄK</h4>
+     		<p class="pargraph"> Rug</p>
+     		<h2>EGP 1,495</h2>
+     		<p class="old_sale">EGP 1,999</p>
+     	</div>
+     </div>
+     
+  </div>
+</div>
+<button class="btn">See more products</button>
+</div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control " href="#myCarousel1" data-slide="prev">
+    <img src="https://secure.ikea.com/ms/img/mShoppingcart/ikea_MW_cash_candy_arrow_left_retina.png" alt="arrow_left">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+    <img src="https://secure.ikea.com/ms/img/mShoppingcart/ikea_MW_cash_candy_arrow_right_retina.png" alt="arrow_right">
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<!--============================== Shop by categories ===================================-->
+<div class="container">
+	<div class="categories text-center">
+	<h2 class="text-center">Shop by categories</h2>
+	
+<div class="row">
+	<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0559901_PE662082_S5.JPG?f=s" alt="bed">
+		<p class="lead">Beds</p>
+	</div>
+		<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0175610_PE328883_S5.JPG?f=s" alt="bed">
+		<p class="lead">Sofas&armchairs</p>
+	</div>
+		<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0176787_PE329567_S5.JPG?f=s" alt="bed">
+		<p class="lead">Wardrobes</p>
+	</div>
+		<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0594294_PE676198_S5.JPG?f=s" alt="bed">
+		<p class="lead">Mirrors</p>
+	</div>
+		<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0738112_PE741380_S5.JPG?f=s" alt="bed">
+		<p class="lead">Rugs</p>
+	</div>
+		<div class="col-md-2 col-sm-4">
+		<img src="https://www.ikea.com/PIAimages/0185429_PE337393_S5.JPG?f=s" alt="bed">
+		<p class="lead">Dining tables</p>
+	</div>
+</div>
+</div>
+</div>
+<!--================================ Gift yourself with the perfect dining setup===============================-->
+ <div class="container">
+<div class="gift text-center">
+	<h2>Gift yourself with the perfect dining setup</h2>
+	<img src="https://www.ikea.com/images/d9/23/d923e3b62b828f183afe6789c747145d.jpg?f=xxxl" class="img-responsive text-center">
+	<div class="row">
+		<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/norrnaes-chair-white-isunda-grey__0727328_PE735600_S5.JPG?f=xs" alt="chair">
+			<h3>NORRNÄS</h3>
+			<p>Chair</p>
+			<h1>EGP 1,595</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 1,995</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/ekedalen-extendable-table-white__0736965_PE740829_S5.JPG?f=xs" alt="chair">
+			<h3>EKEDALEN</h3>
+			<p> Extendable table</p>
+			<h1>EGP 3,595</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 4,995</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/koege-door-mat__0721307_PE733156_S5.JPG?f=xs" alt="chair">
+			<h3>KÖGE</h3>
+			<p>Door mat,102x152 cm</p>
+			<h1>EGP 1,199</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 1,499</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/upplaga-18-piece-service__0706908_PE726018_S5.JPG?f=xs" alt="chair">
+			<h3>UPPLAGA</h3>
+			<p>18-piece service</p>
+			<h1>EGP 1,399</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 1,799</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	</div>
+
+<button class="btn">See more products</button>
+</div>
+</div>
+<!--============================= A living room that's unquestionably you ====================-->
+<div class="container">
+<div class="gift text-center">
+	<h2>Gift yourself with the perfect dining setup</h2>
+	<img src="https://www.ikea.com/images/4f/ec/4fecdcf4837b3a5c002da6a109d56783.jpg?f=xxxl" class="img-responsive text-center">
+	<div class="row">
+		<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/ektorp-three-seat-sofa-lofallet-beige__0386819_PE559167_S5.JPG?f=xs" alt="chair">
+			<h3>EKTORP</h3>
+			<p>Three-seat sofa</p>
+			<h1>EGP 9,995</h1>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/stockholm-2017-rug-flatwoven-handmade-striped-red__0448981_PE598552_S5.JPG?f=xs" alt="chair">
+			<h3>STOCKHOLM 2017</h3>
+			<p> Rug, flatwoven,250x350 cm</p>
+			<h1>EGP 5,999</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 7,999</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/strandmon-wing-chair-nordvalla-red__0690287_PE723209_S5.JPG?f=xs" alt="chair">
+			<h3>STRANDMON</h3>
+			<p>Wing chair</p>
+			<h1>EGP 5,995</h1>
+			<p>(Jan 01, 2020 - Feb 08, 2020 or while supplies last)</p>
+			<p class="old_sale">EGP 6,995</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	<div class="col-md-3 col-sm-6">
+			<img src="https://www.ikea.com/eg/en/images/products/solgul-cradle-with-foam-mattress-white__0656922_PE709566_S5.JPG?f=xs" alt="chair">
+			<h3>SOLGUL</h3>
+			<p>Cradle with foam mattress, 66x84 cm</p>
+			<h1>EGP 1,595</h1>
+			<p class="old_sale">EGP 2,995</p>
+			<p class="pargraph">Other options available</p>
+		</div>
+	</div>
+
+<button class="btn">See more living room</button>
+</div>
+</div>
+<!--=========================== Set the right mood with LED lights =======================-->
+<div class="container">
+<div class="mood text-center">
+	<h2>Set the right mood with LED</br> lights</h2>
+	<div class="row">
+		<div class="col-md-6 ">
+			<img src="https://www.ikea.com/images/2e/b6/2eb639060baf227805ae6a63fee6f7ca.jpg?f=xxl" alt="light" class="img-responsive">
+		</div>
+		<div class="col-md-6 ">
+			<img src="https://www.ikea.com/images/11/6e/116ec8346b047da5802a9cc13961c0c8.jpg?f=xxl" alt="light_1" class="img-responsive">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="group_1">
+				<img src="https://www.ikea.com/eg/en/images/products/naevlinge-pendant-lamp__0707090_PE726098_S5.JPG?f=xs" alt="fan">
+				<p class="text-left"><span class="badge">New</span></p>
+				<p><h3 >NÄVLINGE</h3></p>
+				<p>Pendant lamp, 33 cm</p>
+				<h1 style="color: #111; font-size: 26px;">EGP 399</h1>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="group_1 ">
+			<img src="https://www.ikea.com/eg/en/images/products/fado-table-lamp__0606976_PE682645_S5.JPG?f=xs" alt="fan">
+			<h3>FADO</h3>
+			<p class="table_lamp">Table lamp</p>
+			<h1>EGP 399</h1>
+			<p>Jan 01, 2020 - Feb 08, 2020 or while supplies last</p>
+			<p class="old_sale">EGP 499</p>
+		</div>
+		</div>
+		<div class="col-md-3">
+			<div class="group_1 ">
+			<img src="https://www.ikea.com/eg/en/images/products/taernaby-table-lamp__0591525_PE674188_S5.JPG?f=xs" alt="fan">
+			<h3>TÄRNABY</h3>
+			<p class="table_lamp">Table lamp</p>
+			<h1>EGP 699</h1>
+		</div>
+		</div>
+		<div class="col-md-3">
+			<div class="group_1 ">
+			<img src="https://www.ikea.com/eg/en/images/products/svartra-led-lighting-chain-with-12-lights__0454410_PE602747_S5.JPG?f=xs" alt="fan">
+			<h3>SVARTRÅ</h3>
+			<p class="table_lamp">LED lighting chain with 12 lights</p>
+			<h1>EGP 1.999</h1>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--======================================= What's on IKEA ===================================-->
+<div class="container">
+	<div class="ikea text-center">
+		<h2>What's on IKEA</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://www.ikea.com/images/93/84/93846183d26aaf50ca7a1db5168fc25c.jpg?f=m" alt="ikea">
+				<h3>Last chance!</h3>
+				<p>Final chance to purchase these products before they’re gone forever!</p>
+				<button class="btn">Shop now</button>
+			</div>
+			<div class="col-md-4">
+				<img src="https://www.ikea.com/images/18/77/1877d57ed1b7f07c105dafb29bd834a9.jpg?f=m" alt="ikea">
+				<h3>Dress your table with love</h3>
+				<p>We share our home furnishing knowledge, know-how and skills to turn your dreams into reality. Join our workshops for free to have tips, ideas and inspiration that brings your ideas to life.</p>
+				<button class="btn">Read more</button>
+			</div>
+			<div class="col-md-4">
+				<img src="https://www.ikea.com/images/3d/6b/3d6be2f4ab7d850c7fb0eaad5e0a5bcd.jpg?f=m" alt="ikea">
+				<h3>Make your dream a reality</h3>
+				<p>Find the right solutions and products for your company and home. </p>
+				<button class="btn">Shop now</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--=================================== Note ===============================-->
+	<div class="container">
+		<div class="note text-center">
+			<img src="https://www.ikea.com/images/2f/c4/2fc4a59a0d260e61c122885a51696696.jpg?f=xxxl">
+			<span><p class="text-center">IKEA is recalling TROLIGTVIS travel mug due to  non-compliance with IKEA requirements</p></span>
+		</div>
+	</div>
+	<!--============================= IKEA home design ideas ============================-->
+
+	<div class="home text-center">
+	<div class="design text-center">
+<div class="ideas text-center">
+		<h2>IKEA home design ideas </h2></div>
+	
+				<div class="container ">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img">
+					<img src="https://www.ikea.com/images/0e/07/0e070f29538a61841fb6a3abedc29a34.jpg?f=s">
+					<p>Home visit: host a happy house party</p>
+				</div>
+  
+				</div>
+				<div class="col-md-4">
+					<div class="img">
+					<img src="https://www.ikea.com/images/7b/5d/7b5db03472a868040c3900d8b6f0d5da.jpg?f=s">
+					<p>Take a tea timeout</p>
+				</div>
+				</div>
+				<div class="col-md-4">
+					<div class="img">
+					<img src="https://www.ikea.com/images/2b/47/2b47f69b1f42bdcc8781f09c20dba46c.jpg?f=s">
+					<p>Home visit: self-care tips for the new year</p>
+				</div>
+  
+				</div>
+			</div>
+	</div>
+</div>
+<button class="btn">More inspiration</button>
+</div>
+<!--========================================== footer =======================================-->
+<div class="footer text-center">
+	<div class="row">
+		<div class="col-md-3 col-sm-6">
+			<div class="foot">
+			<h2><i class="far fa-comment-alt"></i>Useful links</h2>
+			<ul class="list-unstyled">
+				<li>Catalogue and brochures</li>
+					<li>IKEA store app</li>
+						<li>Planning tools</li>
+							<li>IKEA food</li>
+								<li>IKEA FAMILY</li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<div class="foot">
+			<h2><i class="fas fa-book-open"></i>Customer service</h2>
+			<ul class="list-unstyled">
+				<li>About services</li>
+					<li>About shopping</li>
+						<li>Return policy</li>
+							<li>Contact us</li>
+								<li>FAQ</li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<div class="foot">
+						<h2><i class="fas fa-book-open"></i>This is IKEA</h2>
+			<ul class="list-unstyled">
+				<li>About services</li>
+					<li>Democratic design</li>
+						<li>Sustainable everyday</li>
+							<li>Community engagement</li>
+								<li>Working at IKEA</li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<div class="foot">
+		<h2><i class="far fa-comment-alt"></i>General information</h2>
+			<ul class="list-unstyled">
+				<li>Newsroom</li>
+					<li>Product recalls</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<div class="media text-center">
+		<ul class="list-unstyled">
+			<li><i class="fab fa-facebook"></i><span style="font-size: 16px">Facebook</span></li>
+			<li><i class="fab fa-instagram"></i><span style="font-size: 16px">Instgram</span></li>
+			<li><i class="fab fa-linkedin"></i><span style="font-size: 16px">Linkedin</span></li>
+			<li><i class="fab fa-youtube-square"></i><span style="font-size: 16px">Youtube</span></li>
+		</ul>
+	</div>
+	<p>© Inter IKEA Systems B.V. 1999-2020</p>
+	<p>Designed by alaa omran</p>
+</div>
+<script type="text/javascript" src="Libraryies/Bootstrab 3/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="plugins.js"></script>
+
+	</body>
+</html>
